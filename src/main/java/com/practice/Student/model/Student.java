@@ -18,9 +18,12 @@ public class Student {
     @Column(name = "student_id")
     private Long studentId;
 
+    @Column(name="student_name")
     private String Name;
 
+    @Column(name="student_email")
     private String email;
 
+    @Column(name="student_grade")
     private String grade;
 }
